@@ -109,7 +109,7 @@ public class Robot extends SampleRobot {
 		leftEncoder.setDistancePerPulse(wheelCircumference/2036);
 		rightEncoder.setDistancePerPulse(wheelCircumference/2036);
 		//turnRight(180);
-		/*drive(57, 0.6);
+		drive(57, 0.6);
 		while(!gearButton.get())
 		{
 			Timer.delay(0.001);
@@ -118,12 +118,12 @@ public class Robot extends SampleRobot {
 		turnRight(45);
 		drive(48, 0.6);
 		turnLeft(45);
-		drive(120, 0.7);*/
-		while(!gearButton.get())
+		drive(120, 0.7);
+		/*while(!gearButton.get())
 		{
 			Timer.delay(0.001);
-		}
-		turnRight(90);
+		}*/
+		//turnRight(90);
 		//turnRightVariableSpeed(90);
 		SmartDashboard.putString("Gyro", gyro.getAngle() + ", 9000");
 	}
